@@ -13,9 +13,8 @@
 3. Write a Program to check if the entered number is Armstrong or not [program](./B/03-armstrong-number.py)
 4. Write a program that reads roll no. from a student. Then your program should display a message indicating whether the number is even or odd [program](./B/04-even-odd.py)
 5. Let us say a teacher decided to give grades to her students as follows: [program](./B/05-grades.py)
-   a) Mark greater than or equal to 80: Excellent
-   b) Mark greater than or equal to 65 but less than 80: Good
-   c) Mark greater than or equal to 50 but less than 65: Pass
-   d) Mark less than 50: Fail
-   Write a program in python to print a grade according to a student's mark with multiple if
-   statements
+   * Mark greater than or equal to 80: Excellent
+   * Mark greater than or equal to 65 but less than 80: Good
+   * Mark greater than or equal to 50 but less than 65: Pass
+   * Mark less than 50: Fail
+   * Write a program in python to print a grade according to a student's mark with multiple if statements
