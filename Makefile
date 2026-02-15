@@ -1,0 +1,2 @@
+format-py:
+	uv format
