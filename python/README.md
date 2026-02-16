@@ -18,3 +18,28 @@
    * Mark greater than or equal to 50 but less than 65: Pass
    * Mark less than 50: Fail
    * Write a program in python to print a grade according to a student's mark with multiple if statements
+
+## C Loops
+1. Write a python program to find factorial of a number [program](./C/01-factorial.py)
+2. Write a python program that prints prime numbers less than 20. [program](./C/02-prime-numbers.py)
+3. Write a Program to print multiplication table of any number [program](./C/03-multiplication-table.py)
+4. Write a Program to check whether a number is palindrome or not [program](./C/04-palindrome-number.py)
+5. Write a Program to construct the following pattern using nested for loop: [program](./C/05-pattern.py)
+    *
+    **
+    ***
+    ****
+    *****
+    *****
+    ****
+    ***
+    **
+    *
+6. Write a Program to print Fibonacci series up to n terms using loop statement [program](./C/06-fibonacci-series.py)
+
+## D String
+1. Write a program to create, concatenate and print a string and accessing sub-string from a given string. [program](./D/01-create-concatenate-substring.py)
+2. Write a program find length of a string. [program](./D/02-string-length.py)
+3. Write a Program to check whether a string is palindrome or not. [program](./D/03-palindrome-string.py)
+4. Write a Program to count all letters, digits, and special symbols from a given string. [program](./D/04-count-letters-digits-special.py)
+5. Write a Program to calculate the sum and average of the digits present in your registration number. [program](./D/05-registration-number-sum-average.py)
