@@ -13,10 +13,10 @@
 3. Write a Program to check if the entered number is Armstrong or not [program](./B/03-armstrong-number.py)
 4. Write a program that reads roll no. from a student. Then your program should display a message indicating whether the number is even or odd [program](./B/04-even-odd.py)
 5. Let us say a teacher decided to give grades to her students as follows: [program](./B/05-grades.py)
-   * Mark greater than or equal to 80: Excellent
-   * Mark greater than or equal to 65 but less than 80: Good
-   * Mark greater than or equal to 50 but less than 65: Pass
-   * Mark less than 50: Fail
+   1. Mark greater than or equal to 80: Excellent
+   2. Mark greater than or equal to 65 but less than 80: Good
+   3. Mark greater than or equal to 50 but less than 65: Pass
+   4. Mark less than 50: Fail
    * Write a program in python to print a grade according to a student's mark with multiple if statements
 
 ## C Loops
@@ -25,16 +25,18 @@
 3. Write a Program to print multiplication table of any number [program](./C/03-multiplication-table.py)
 4. Write a Program to check whether a number is palindrome or not [program](./C/04-palindrome-number.py)
 5. Write a Program to construct the following pattern using nested for loop: [program](./C/05-pattern.py)
-    *
-    **
-    ***
-    ****
-    *****
-    *****
-    ****
-    ***
-    **
-    *
+```
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+```
 6. Write a Program to print Fibonacci series up to n terms using loop statement [program](./C/06-fibonacci-series.py)
 
 ## D String
