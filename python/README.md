@@ -45,3 +45,16 @@
 3. Write a Program to check whether a string is palindrome or not. [program](./D/03-palindrome-string.py)
 4. Write a Program to count all letters, digits, and special symbols from a given string. [program](./D/04-count-letters-digits-special.py)
 5. Write a Program to calculate the sum and average of the digits present in your registration number. [program](./D/05-registration-number-sum-average.py)
+
+## E Lists
+1. Write a program to demonstrate various list operations in python. [program](./E/01-list-operations.py)
+2. Write a program to find even numbers from a list [program](./E/02-even-numbers-from-list.py)
+3. Write a program to interchange first and last element of a list [program](./E/03-interchange-first-last.py)
+4. Write a program to turn every item of a list into its square [program](./E/04-list-squares.py)
+5. Write a program to check all elements are unique or not in Python [program](./E/05-check-unique-elements.py)
+6. Write a program to replace list’s item with new value if found [program](./E/06-replace-list-item.py)
+7. Write a program to find the position of minimum and maximum elements of a list. [program](./E/07-min-max-position.py)
+8. Write a program to find the cumulative sum of elements of a list [program](./E/08-cumulative-sum.py)
+9. Write a program that reads integers from the user and stores them in a list. Your program should continue reading values until the user enters 0. Then it should display all of the values entered by the user (except for the 0) in order from smallest to largest, with one value appearing on each line. [program](./E/09-sort-user-input.py)
+10. Write a program that reads integers from the user and stores them in a list. Use 0 as a sentinel value to mark the end of the input. Once all of the values have been read your program should display them (except for the 0) in reverse order. [program](./E/10-reverse-user-input.py)
+
