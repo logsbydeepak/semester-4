@@ -1,11 +1,10 @@
 numbers = [1, 2, 3, 4, 5]
-squared_numbers = []
-
-for num in numbers:
-    squared_numbers.append(num**2)
-
 print("Original list:", numbers)
-print("List after squaring each element:", squared_numbers)
+
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] ** 2
+
+print("List after squaring each element:", numbers)
 
 """
 Original list: [1, 2, 3, 4, 5]
