@@ -58,3 +58,8 @@
 9. Write a program that reads integers from the user and stores them in a list. Your program should continue reading values until the user enters 0. Then it should display all of the values entered by the user (except for the 0) in order from smallest to largest, with one value appearing on each line. [program](./E/09-sort-user-input.py)
 10. Write a program that reads integers from the user and stores them in a list. Use 0 as a sentinel value to mark the end of the input. Once all of the values have been read your program should display them (except for the 0) in reverse order. [program](./E/10-reverse-user-input.py)
 
+## F Tuples
+1. Write a program to demonstrate various tuple operations in python. [program](./F/01-tuple-operations.py)
+2. Write a program to find the size of a tuple [program](./F/02-tuple-size.py)
+3. Write a program to find the maximum and minimum K elements in a tuple [program](./F/03-max-min-k-elements.py)
+4. Write a program to create a list of tuples from given list having number and its cube in each tuple [program](./F/04-number-cube-tuples.py)
