@@ -63,3 +63,8 @@
 2. Write a program to find the size of a tuple [program](./F/02-tuple-size.py)
 3. Write a program to find the maximum and minimum K elements in a tuple [program](./F/03-max-min-k-elements.py)
 4. Write a program to create a list of tuples from given list having number and its cube in each tuple [program](./F/04-number-cube-tuples.py)
+5. Count Frequency of Elements in a Tuple [program](./F/05-count-frequency.py)
+6. Find Maximum and Minimum Element in a Tuple [program](./F/06-max-min-element.py)
+7. Convert Tuple into a List and Remove Duplicates [program](./F/07-remove-duplicates.py)
+8. Find Second Largest Element in a Tuple [program](./F/08-second-largest.py)
+9. Check if a Tuple is a Palindrome [program](./F/09-palindrome-tuple.py)
