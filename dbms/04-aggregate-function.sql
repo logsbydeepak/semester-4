@@ -1,104 +1,112 @@
-create database my_company;
+CREATE DATABASE my_company;
 
-use my_company;
+USE my_company;
 
-create table employee (
-	id bigint primary key,
-	name varchar(100) not null,
-	phone_no varchar(15),
-	email varchar(100) unique,
-	department_no varchar(15),
-	department_name varchar(100),
-	job_id varchar(50),
-	salary decimal(10,2),
-	address varchar(255)
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT,
+    age INT
 );
-    
-insert into employee(id, name, phone_no, email, department_no, department_name, job_id, salary, address) values
-(1, 'arun kumar', '9876543210', null, 'd4', 'cse', 'dev01', 55000.00, 'chennai'),
-(2, 'priya sharma', '9123456780', null, 'd1', 'sales', 'sal01', 45000.00, 'mumbai'),
-(3, 'rahul verma', '9988776655', null, 'd5', 'marketing', 'dev02', 60000.00, 'bangalore'),
-(4, 'sneha reddy', '9090909090', 'sneha.reddy@email.com', 'd3', 'it', 'sal02', 50000.00, 'hyderabad'),
-(5, 'karan mehta', '9345678901', null, 'd4', 'cse', 'dev03', 52000.00, 'pune'),
-(6, 'anjali singh', '9765432109', null, 'd2', 'hr', 'sal03', 47000.00, 'delhi'),
-(7, 'vikram das', '9012345678', null, 'd2', 'hr', 'dev04', 58000.00, 'kolkata');
-    
+
+INSERT INTO employees VALUES
+(1, 'Amit', 'IT', 50000, 25),
+(2, 'Neha', 'HR', 40000, 28),
+(3, 'Raj', 'IT', 60000, 30),
+(4, 'Simran', 'Finance', 45000, 27),
+(5, 'Karan', 'IT', 55000, 26),
+(6, 'Riya', 'HR', 52000, 29),
+(7, 'Arjun', 'Finance', 70000, 32),
+(8, 'Priya', 'HR', 48000, 26),
+(9, 'Vikas', 'Finance', 30000, 24),
+(10, 'Sneha', 'IT', 65000, 31),
+(11, 'Rahul', 'Finance', 55000, 28),
+(12, 'Ankit', 'HR', 60000, 27);
+
+-- Q1
 SELECT COUNT(*) AS total_employees
-FROM employee;
+FROM employees;
 
-SELECT COUNT(*) AS total_it_employees
-FROM employee
-WHERE department_name = 'IT';
+-- Q2
+SELECT COUNT(*) AS it_employees
+FROM employees
+WHERE department = 'IT';
 
+-- Q3
 SELECT SUM(salary) AS total_salary
-FROM employee;
+FROM employees;
 
-SELECT AVG(salary) AS average_salary
-FROM employee;
+-- Q4
+SELECT AVG(salary) AS avg_salary
+FROM employees;
 
+-- Q5
 SELECT MAX(salary) AS highest_salary
-FROM employee;
+FROM employees;
 
-SELECT MIN(salary) AS highest_salary
-FROM employee;
+-- Q6
+SELECT MIN(salary) AS lowest_salary
+FROM employees;
 
-SELECT SUM(salary) AS total_it_salary
-FROM employee
-WHERE department_name = 'IT';
+-- Q7
+SELECT SUM(salary) AS it_total_salary
+FROM employees
+WHERE department = 'IT';
 
-SELECT COUNT(*) AS employees_above_60000
-FROM employee
+-- Q8
+SELECT COUNT(*) AS employees_above_40000
+FROM employees
 WHERE salary > 40000;
 
-SELECT department_name, COUNT(*) AS total_employees
-FROM employee
-GROUP BY department_name;
+-- Q9
+SELECT department, COUNT(*) AS total_employees
+FROM employees
+GROUP BY department;
 
-SELECT department_name, AVG(salary) AS average_salary
-FROM employee
-GROUP BY department_name;
+-- Q10
+SELECT department, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department;
 
-SELECT department_name, MAX(salary) AS highest_salary
-FROM employee
-GROUP BY department_name;
+-- Q11
+SELECT department, MAX(salary) AS max_salary
+FROM employees
+GROUP BY department;
 
--- SELECT department_name, MAX(age) AS max_age
--- FROM employee
--- GROUP BY department_name;
+-- Q12
+SELECT department, MIN(age) AS min_age
+FROM employees
+GROUP BY department;
 
-SELECT department_name, COUNT(*) AS total_employees
-FROM employee
-GROUP BY department_name
+-- Q13
+SELECT department, COUNT(*) AS total_employees
+FROM employees
+GROUP BY department
 HAVING COUNT(*) > 2;
 
-SELECT department_name, AVG(salary) AS average_salary
-FROM employee
-GROUP BY department_name
+-- Q14
+SELECT department, AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department
 HAVING AVG(salary) > 50000;
 
-SELECT department_name, SUM(salary) AS total_salary
-FROM employee
-GROUP BY department_name
+-- Q15
+SELECT department, SUM(salary) AS total_salary
+FROM employees
+GROUP BY department
 HAVING SUM(salary) > 100000;
 
-SELECT department_name, SUM(salary) AS total_salary
-FROM employee
-GROUP BY department_name
-HAVING SUM(salary) > 100000;
+-- Q16
+SELECT department, COUNT(*) AS total_employees, SUM(salary) AS total_salary
+FROM employees
+GROUP BY department;
 
-SELECT department_name, 
-       COUNT(*) AS total_employees, 
-       SUM(salary) AS total_salary
-FROM employee
-GROUP BY department_name;
-
-SELECT 
-    department_name
-FROM
-    employee
-WHERE
-    salary > 40000
-GROUP BY department_name
+-- Q17
+SELECT department, COUNT(*) AS total_employees
+FROM employees
+WHERE salary > 40000
+GROUP BY department
 HAVING COUNT(*) >= 2;
-    
-    
+
+
