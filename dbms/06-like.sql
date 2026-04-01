@@ -14,7 +14,7 @@ create table student(
 insert into student values
 (1, 'Amit', 'Jaipur', 18, 47),
 (2, 'Neha', 'Delhi', 16, 87),
-(3, 'Rohit', 'Jodpur', 18, 78),
+(3, 'Rohit', 'Jodhpur', 18, 78),
 (4, 'Sneha', 'Jaipur', 17, 38),
 (5, 'Arjun', 'Ajmer', 18, 78),
 (6, 'Ankit', 'Delhi', 16, 75),
