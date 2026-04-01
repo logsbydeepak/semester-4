@@ -27,7 +27,7 @@ where name like 'N%';
 
 -- 2
 select name from student
-where name like '%e';
+where name like '%t';
 
 -- 3
 select name from student
@@ -35,11 +35,11 @@ where name like '%ha%';
 
 -- 4
 select name from student
-where name like '%r';
+where city like '%r';
 
 -- 5
 select name,city from student
-where city like '_r%';
+where name like '_r%';
 
 -- 6
 select name from student
