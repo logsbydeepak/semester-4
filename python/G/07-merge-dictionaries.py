@@ -1,0 +1,13 @@
+dict1 = {"a": 1, "b": 2, "c": 3}
+dict2 = {"d": 4, "e": 5}
+merged_dict = {**dict1, **dict2}
+
+print("Dictionary 1:", dict1)
+print("Dictionary 2:", dict2)
+print("Merged dictionary:", merged_dict)
+
+"""
+Dictionary 1: {'a': 1, 'b': 2, 'c': 3}
+Dictionary 2: {'d': 4, 'e': 5}
+Merged dictionary: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+"""

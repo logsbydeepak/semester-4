@@ -75,6 +75,11 @@
 3. Write a Program to generate dictionary of numbers and their squares (i, i*i) from 1 to N [program](./G/03-numbers-and-squares.py)
 4. Write a Program that determines and displays the number of unique characters in a string entered by the user. For example, “Hello, World!” has 10 unique characters while “zzz” has only one unique character. Use a dictionary to solve this problem. [program](./G/04-unique-characters.py)
 5. Two words are anagrams if they contain all of the same letters, but in a different order. For example, “evil” and “live” are anagrams because each contains one ‘e’, one ‘I’, one ‘l’, and one ‘v’. Create a program that reads two strings from the user, determines whether or not they are anagrams, and reports the result. [program](./G/05-anagram-check.py)
+6. WAP to Count Frequency of Elements in a List [program](./G/06-count-frequency-list.py)
+7. WAP to Merge Two Dictionaries [program](./G/07-merge-dictionaries.py)
+8. WAP to Find Maximum and Minimum Value in a Dictionary [program](./G/08-max-min-dictionary.py)
+9. WAP to Invert a Dictionary i.e swap key and values (assume Values are Unique) [program](./G/09-invert-dictionary.py)
+10. WAP to Sort a dictionary in ascending and descending order based on values. [program](./G/10-sort-dictionary-by-values.py)
 
 ## H Functions
 1. Write a Program to write user defined function to swap two number and display number before swapping and after swapping [program](./H/01-swap-numbers-function.py)
