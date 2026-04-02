@@ -68,3 +68,20 @@
 7. Convert Tuple into a List and Remove Duplicates [program](./F/07-remove-duplicates.py)
 8. Find Second Largest Element in a Tuple [program](./F/08-second-largest.py)
 9. Check if a Tuple is a Palindrome [program](./F/09-palindrome-tuple.py)
+
+## G Dictionary
+1. Write a program to demonstrate working with dictionaries in python [program](./G/01-dictionary-operations.py)
+2. Write a Program to create a dictionary from a sequence [program](./G/02-dictionary-from-sequence.py)
+3. Write a Program to generate dictionary of numbers and their squares (i, i*i) from 1 to N [program](./G/03-numbers-and-squares.py)
+4. Write a Program that determines and displays the number of unique characters in a string entered by the user. For example, “Hello, World!” has 10 unique characters while “zzz” has only one unique character. Use a dictionary to solve this problem. [program](./G/04-unique-characters.py)
+5. Two words are anagrams if they contain all of the same letters, but in a different order. For example, “evil” and “live” are anagrams because each contains one ‘e’, one ‘I’, one ‘l’, and one ‘v’. Create a program that reads two strings from the user, determines whether or not they are anagrams, and reports the result. [program](./G/05-anagram-check.py)
+
+## H Functions
+1. Write a Program to write user defined function to swap two number and display number before swapping and after swapping [program](./H/01-swap-numbers-function.py)
+2. Write a Program to calculate arithmetic operation on two number using user defined function [program](./H/02-arithmetic-operations-function.py)
+3. Write a Program to Calculate diameter and area of circle using user defined function [program](./H/03-diameter-area-circle.py)
+4. Write a function that takes three numbers as parameters, and returns the median value of those parameters as its result. Include a main program that reads three values from the user and displays their median. [program](./H/04-median-of-three.py)
+5. Write a function that generates a random password. The password should have a random length of between 7 and 10 characters. Each character should be randomly selected from positions 33 to 126 in the ASCII table. Your function will not take any parameters. It will return the randomly generated password as its only result. [program](./H/05-random-password.py)
+6. Write a Program to filter even values from list using lambda function [program](./H/06-filter-even-lambda.py)
+7. Write a Program to find the sum of elements of a list using lambda function [program](./H/07-sum-list-lambda.py)
+8. Write a Program to find small number between two numbers using Lambda function [program](./H/08-small-number-lambda.py)
