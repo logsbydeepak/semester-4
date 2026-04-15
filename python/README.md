@@ -90,3 +90,16 @@
 6. Write a Program to filter even values from list using lambda function [program](./H/06-filter-even-lambda.py)
 7. Write a Program to find the sum of elements of a list using lambda function [program](./H/07-sum-list-lambda.py)
 8. Write a Program to find small number between two numbers using Lambda function [program](./H/08-small-number-lambda.py)
+
+## I Recursion
+1. Write a python program to find factorial of a number using Recursion. [program](./I/01-factorial-recursion.py)
+2. Write a Program to print Fibonacci series up to n terms using recursion [program](./I/02-fibonacci-recursion.py)
+3. Write a program that reads values from the user until a blank line is entered. Display the total of all of the values entered by the user (or 0.0 if the first value entered is a blank line). Complete this task using recursion. Your program may not use any loops. [program](./I/03-sum-values-recursion.py)
+
+## J OOP
+1. Write a Program to implement destructor and constructors using __del__() and __init__() [program](./J/01-constructor-destructor.py)
+2. Write a Program to implement Getters and Setters in a class [program](./J/02-getters-setters.py)
+3. Write a Program to calculate student grade using class [program](./J/03-student-grade.py)
+4. Write a Program to illustrate single inheritance in Python [program](./J/04-single-inheritance.py)
+5. Write a Program to illustrate multiple inheritance in Python [program](./J/05-multiple-inheritance.py)
+6. Write a Program to illustrate multilevel inheritance in Python [program](./J/06-multilevel-inheritance.py)
