@@ -103,3 +103,15 @@
 4. Write a Program to illustrate single inheritance in Python [program](./J/04-single-inheritance.py)
 5. Write a Program to illustrate multiple inheritance in Python [program](./J/05-multiple-inheritance.py)
 6. Write a Program to illustrate multilevel inheritance in Python [program](./J/06-multilevel-inheritance.py)
+
+## K Regular Expression
+1. Write a Program to match a string that contains only upper and lowercase letters, numbers, and underscores [program](./K/01-match-letters-digits-underscore.py)
+2. Write a Program that matches a string that has an a followed by zero or more b's [program](./K/02-a-followed-by-zero-or-more-b.py)
+3. Write a Program that matches a string that has an a followed by one or more b's [program](./K/03-a-followed-by-one-or-more-b.py)
+4. Write a Program that matches a string that has an a followed by three 'b' [program](./K/04-a-followed-by-three-b.py)
+5. Write a Program to find the sequences of one upper case letter followed by lower case letters [program](./K/05-uppercase-followed-by-lowercase.py)
+6. Write a Program that matches a word at the beginning of a string [program](./K/06-word-at-beginning.py)
+7. Write a Program to search some literals strings in a string. [program](./K/07-search-literals.py)
+8. Write a Program to replace whitespaces with an underscore and vice versa. [program](./K/08-replace-whitespace-underscore.py)
+9. Write a Program to remove all whitespaces from a string. [program](./K/09-remove-whitespaces.py)
+10. Write a Program to validate a 10-digit mobile number [program](./K/10-validate-mobile-number.py)
